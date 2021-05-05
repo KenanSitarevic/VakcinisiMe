@@ -1,5 +1,19 @@
 <resources>
-    <string name="app_name">Vakcinisi me</string>
+    <string name="app_name">VakcinišiMe</string>
+    <string name="hello_blank_fragment">Hello</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_title">Dobrodošli na</string>
+    <string name="syringe">syringe</string>
+    <string name="description">Vakcina protiv COVID-19 je namijenjena za pružanje imuniteta protiv teškog akutnog respiratornog sindroma koronavirusa 2 (SARS-CoV-2), virusa koji uzrokuje koronavirusnu bolest 2019. (COVID-19).</string>
+    <string name="dalje">Dalje</string>
+    <string name="form">Popunite lične informacije</string>
+
+    <string name="first_name">Ime</string>
+    <string name="last_name">Prezime</string>
+    <string name="date_of_birth">Datum rođenja</string>
+    <string name="city">Mjesto stanovanja</string>
+    <string name="phone_number">Broj telefona</string>
+    <string name="email">E-mail</string>
+    <string name="health_card">Zdravstvena kartica</string>
+
 </resources>
