@@ -14,6 +14,60 @@
         android:orientation="vertical"
         tools:context=".StartFragment">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="175sp"
+            android:contentDescription="@string/syringe"
+            app:srcCompat="@drawable/ic_syringe"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textAllow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/righteous"
+            android:text="@string/allow_title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textAllow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/righteous"
+            android:text="@string/allow_title2"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textVaccination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/righteous"
+            android:text="@string/vaccination"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textDateAndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:text="@string/place_and_time"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:visibility="visible" />
+
         <Button
             android:id="@+id/buttonNext"
             android:layout_width="wrap_content"

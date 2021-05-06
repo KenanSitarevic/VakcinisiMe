@@ -55,27 +55,21 @@
             android:textColorLink="@color/white"
             android:textSize="14sp" />
 
-        <DatePicker
-            android:id="@+id/datePicker"
+        <EditText
+            android:id="@+id/editTextJMBG"
             android:layout_width="match_parent"
-            android:layout_height="140sp"
-            android:background="#FFFFFF"
-            android:backgroundTint="#FFFFFF"
-            android:calendarTextColor="@color/green"
-            android:calendarViewShown="false"
-            android:datePickerMode="spinner"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
             android:ems="10"
             android:fontFamily="@font/righteous"
-            android:foregroundTint="#FFFFFF"
             android:gravity="center"
-            android:scrollbarThumbHorizontal="@color/green"
-            android:scrollbarThumbVertical="@color/green"
-            android:spinnersShown="true"
+            android:hint="@string/JMBG"
             android:textColor="@color/green"
             android:textColorHint="@color/white"
             android:textColorLink="@color/white"
-            android:textSize="14sp"
-            android:yearListSelectorColor="@color/green" />
+            android:inputType="number"
+            android:textSize="14sp"/>
+
 
         <EditText
             android:id="@+id/editTextCity"

@@ -10,10 +10,47 @@
 
     <string name="first_name">Ime</string>
     <string name="last_name">Prezime</string>
-    <string name="date_of_birth">Datum rođenja</string>
+    <string name="JMBG">JMBG</string>
     <string name="city">Mjesto stanovanja</string>
     <string name="phone_number">Broj telefona</string>
     <string name="email">E-mail</string>
-    <string name="health_card">Zdravstvena kartica</string>
+    <string name="health_card">Broj zdravstvene kartice</string>
+
+
+    <string name="impediments_title">Da li smijete primiti vakcinu?</string>
+    <string name="impediments_explanation">Odaberite polja koja su primjenjiva na Vas</string>
+    <string name="pregnant">Trudna sam ili dojim dijete</string>
+    <string name="child">Imam manje od 16 godina</string>
+    <string name="allergy">Alergičan/a sam na neke lijekove i/ili prethodno primane vakcine</string>
+    <string name="medical_condition">Trenutno primam terapiju za određenu bolest</string>
+    <string name="positive">Trenutno sam pozitivan/na na Covid-19 virus</string>
+
+    <string name="priority_title">Da li pripadate prioritetnoj grupi</string>
+    <string name="older_adults">Imam više od 65 godina</string>
+    <string name="chronical_illness">Hronični/a sam bolesnik/ca</string>
+    <string name="health_worker">Medicnski/a sam radnik/ca</string>
+    <string name="elder_care">Radim ili koristim usluge staračkog doma</string>
+    <string name="education_worker">Radim kao prosvjetni/a radnik/ca</string>
+
+    <string name="vaccine_title">Izbor vakcina</string>
+    <string name="vaccine_choice">Koju biste vakcinu voljeli primiti?</string>
+    <string name="astra_zeneca">Opel Astra Zeneca</string>
+    <string name="sputnjik">Sputnjik</string>
+    <string name="johnson">Johnson and Johnson</string>
+    <string name="moderna">Moderna</string>
+    <string name="pheiser">Reiffeisen</string>
+
+    <string name="summary_title">Rezultat prikupljenih podataka</string>
+    <string name="summary">PLACEHOLDER (trebamo jos vidjeti hocemo li ovako ovo uraditi) Neko ime neko prezime jmbg hrnoika radi tu i tu hoce tu i tu vakcinu i tako te neke stvari koje bi neko mogao popuniti u ovoj anketi sad samo treba da vidi da li je sve tacno i da li treba sta mijenjati</string>
+    <string name="summary_check">Da li su ovi podaci tačni? Ako nisu molimo da se vratite i popravite greške ili nesto u tom fazonu</string>
+
+    <string name="rejection_title">Vi niste spremni za vakcinu!</string>
+    <string name="rejection_desc">Savjetujemo vam da se konsultujete sa vašim doktorom za dalje upute</string>
+
+    <string name="allow_title">Spremni ste primiti</string>
+    <string name="allow_title2">vakcinu!</string>
+    <string name="vaccination">Vasa vakcinacija je zakazana: </string>
+    <string name="place_and_time">ponedjeljak u 13:30 sati, Sarajevo - park onaj gdje se šah igra</string>
+
 
 </resources>

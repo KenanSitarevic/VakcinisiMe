@@ -8,12 +8,89 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="20sp"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="20sp"
         android:layout_marginEnd="20sp"
         android:layout_marginBottom="50sp"
         android:orientation="vertical"
         tools:context=".StartFragment">
 
+        <TextView
+            android:id="@+id/textForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/righteous"
+            android:text="@string/vaccine_title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/textOpis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/righteous"
+            android:text="@string/vaccine_choice"
+            android:textAlignment="inherit"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:visibility="visible" />
+
+
+
+
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/chipAstraZeneca"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20sp"
+                android:backgroundTint="@color/green"
+                android:checkable="true"
+                android:fontFamily="@font/righteous"
+                android:text="@string/astra_zeneca"
+                android:textColor="@color/white"/>
+
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/chipSputnjik"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/green"
+                android:checkable="true"
+                android:fontFamily="@font/righteous"
+                android:text="@string/sputnjik"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/chipJohnson"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/green"
+                android:checkable="true"
+                android:fontFamily="@font/righteous"
+                android:text="@string/johnson"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/chipModerna"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/green"
+                android:checkable="true"
+                android:fontFamily="@font/righteous"
+                android:text="@string/moderna"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/chipPheiser"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/green"
+                android:checkable="true"
+                android:fontFamily="@font/righteous"
+                android:text="@string/pheiser"
+                android:textColor="@color/white" />
+        </RadioGroup>
         <Button
             android:id="@+id/buttonNext"
             android:layout_width="wrap_content"
@@ -30,5 +107,8 @@
             app:backgroundTint="@color/green"
             app:rippleColor="@color/green"
             tools:visibility="visible" />
+
+
+
     </LinearLayout>
 </layout>

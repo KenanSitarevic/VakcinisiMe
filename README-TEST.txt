@@ -8,7 +8,7 @@ jos po jednu pa idemo
 3. napravio sam jedan fragment (ne do kraja) i njegov layout 
 4. treba doraditi prikaz fragmenta u glavnoj aktivnosti. nisam jos provjerio jer je kasno
 
-KENO PRVI OZBILJAN PUSH
+KENO DRUGI OZBILJAN PUSH
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. fragment - uvodni dio,
@@ -22,14 +22,14 @@ KENO PRVI OZBILJAN PUSH
 design:
 
 1. fragment - uradjen,
-2. fragment - haman (nez promijenit boju na nekom cudnom fragmentu jer mislim da ima neki svoj private style kojem ne znam pristupit)
-3. fragment - ovdje sam stao
-4. fragment - 
-5. fragment - 
-6. fragment - 
-7. fragment - 
+2. fragment - uradjen,
+3. fragment - uradjen,
+4. fragment - uradjen,
+5. fragment - uradjen,
+6. fragment - uradjen,
+7. fragment - uradjen,
 
 Uvezani svi kotlin fajlovi (nek nam to bude izraz za one EndFragment, MainActivity, StartFragment itd.) sa odgovarajucim xml fajlovima.
-U navigation-u odradjene sve primarne akcije prelaska sa fragmenta na fragment. Od treceg fragmenta do posljednjeg samo ubacen <Button> da bi bila odradjena akcija prelaska. 
+U navigation-u odradjene sve primarne akcije prelaska sa fragmenta na fragment. 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------

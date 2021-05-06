@@ -14,8 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_syringe" />
-                            <entry key="sourceFile" value="C:\Users\vedad\AndroidStudioProjects\Vakcinisime\app\src\main\res\drawable\syringe.svg" />
+                            <entry key="outputName" value="ic_syringered" />
+                            <entry key="sourceFile" value="C:\Users\vedad\Downloads\syringeRed.svg" />
                           </map>
                         </option>
                       </PersistentState>

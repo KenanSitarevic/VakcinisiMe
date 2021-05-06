@@ -8,11 +8,78 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="20sp"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="20sp"
         android:layout_marginEnd="20sp"
         android:layout_marginBottom="50sp"
         android:orientation="vertical"
         tools:context=".StartFragment">
+
+        <TextView
+            android:id="@+id/textForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/righteous"
+            android:text="@string/priority_title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/textOpis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/righteous"
+            android:text="@string/impediments_explanation"
+            android:textAlignment="inherit"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:visibility="visible"
+            />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/checkBoxOlderAdults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:textColor="@color/white"
+            android:layout_marginTop="20sp"
+            android:text="@string/older_adults"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/checkBoxChronicalIllness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:textColor="@color/white"
+            android:text="@string/chronical_illness" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/checkBoxHealthWorker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:textColor="@color/white"
+            android:text="@string/health_worker" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/checkBoxElderCare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:textColor="@color/white"
+            android:text="@string/elder_care" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/checkBoxEducationWorker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/righteous"
+            android:textColor="@color/white"
+            android:text="@string/education_worker" />
+
 
         <Button
             android:id="@+id/buttonNext"
@@ -30,5 +97,8 @@
             app:backgroundTint="@color/green"
             app:rippleColor="@color/green"
             tools:visibility="visible" />
+
+
+
     </LinearLayout>
 </layout>
