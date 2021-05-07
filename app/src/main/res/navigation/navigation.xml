@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
     app:startDestination="@id/startFragment">
 
     <fragment
         android:id="@+id/startFragment"
         android:name="com.example.vakcinisime.StartFragment"
-        android:label="StartFragment" >
+        android:label="StartFragment"
+        tools:layout="@layout/fragment_start">
         <action
             android:id="@+id/action_startFragment_to_infoFragment"
             app:destination="@id/infoFragment" />
@@ -15,7 +18,8 @@
     <fragment
         android:id="@+id/infoFragment"
         android:name="com.example.vakcinisime.InfoFragment"
-        android:label="InfoFragment" >
+        android:label="InfoFragment"
+        tools:layout="@layout/fragment_info">
         <action
             android:id="@+id/action_infoFragment_to_impedimentsFragment"
             app:destination="@id/impedimentsFragment" />
@@ -23,15 +27,22 @@
     <fragment
         android:id="@+id/impedimentsFragment"
         android:name="com.example.vakcinisime.ImpedimentsFragment"
-        android:label="ImpedimentsFragment" >
+        android:label="ImpedimentsFragment"
+        tools:layout="@layout/fragment_impediments">
         <action
             android:id="@+id/action_impedimentsFragment_to_priorityFragment"
             app:destination="@id/priorityFragment" />
+        <action
+            android:id="@+id/action_impedimentsFragment_to_rejectionFragment"
+            app:destination="@id/rejectionFragment"
+            app:popUpTo="@id/infoFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/priorityFragment"
         android:name="com.example.vakcinisime.PriorityFragment"
-        android:label="PriorityFragment" >
+        android:label="PriorityFragment"
+        tools:layout="@layout/fragment_priority">
         <action
             android:id="@+id/action_priorityFragment_to_vaccineFragment"
             app:destination="@id/vaccineFragment" />
@@ -39,7 +50,8 @@
     <fragment
         android:id="@+id/vaccineFragment"
         android:name="com.example.vakcinisime.VaccineFragment"
-        android:label="VaccineFragment" >
+        android:label="VaccineFragment"
+        tools:layout="@layout/fragment_vaccine">
         <action
             android:id="@+id/action_vaccineFragment_to_summaryFragment"
             app:destination="@id/summaryFragment" />
@@ -47,26 +59,40 @@
     <fragment
         android:id="@+id/summaryFragment"
         android:name="com.example.vakcinisime.SummaryFragment"
-        android:label="SummaryFragment" >
+        android:label="SummaryFragment"
+        tools:layout="@layout/fragment_summary">
         <action
-            android:id="@+id/action_summaryFragment_to_rejectionFragment"
-            app:destination="@id/rejectionFragment" />
+            android:id="@+id/action_summaryFragment_to_endFragment"
+            app:destination="@id/endFragment"
+            app:popUpTo="@id/infoFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/rejectionFragment"
         android:name="com.example.vakcinisime.RejectionFragment"
-        android:label="RejectionFragment" >
+        android:label="RejectionFragment"
+        tools:layout="@layout/fragment_rejection">
         <action
-            android:id="@+id/action_rejectionFragment_to_endFragment"
-            app:destination="@id/endFragment" />
+            android:id="@+id/action_rejectionFragment_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/endFragment"
         android:name="com.example.vakcinisime.EndFragment"
-        android:label="EndFragment" >
+        android:label="EndFragment"
+        tools:layout="@layout/fragment_end">
         <action
             android:id="@+id/action_endFragment_to_startFragment"
-            app:destination="@id/startFragment" />
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
     </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.vakcinisime.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
 
 </navigation>

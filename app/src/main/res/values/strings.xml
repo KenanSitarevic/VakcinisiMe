@@ -51,6 +51,7 @@
     <string name="allow_title2">vakcinu!</string>
     <string name="vaccination">Vasa vakcinacija je zakazana: </string>
     <string name="place_and_time">ponedjeljak u 13:30 sati, Sarajevo - park onaj gdje se šah igra</string>
+    <string name="about">About</string>
 
 
 </resources>

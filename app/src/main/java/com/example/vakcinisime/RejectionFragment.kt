@@ -23,7 +23,7 @@ class RejectionFragment : Fragment() {
 
 
         view.findViewById<Button>(R.id.buttonNext).setOnClickListener {
-            findNavController().navigate(R.id.action_rejectionFragment_to_endFragment)
+            findNavController().navigate(R.id.action_rejectionFragment_to_startFragment)
         }
     }
 

@@ -23,7 +23,7 @@ class SummaryFragment : Fragment() {
 
 
         view.findViewById<Button>(R.id.buttonNext).setOnClickListener {
-            findNavController().navigate(R.id.action_summaryFragment_to_rejectionFragment)
+            findNavController().navigate(R.id.action_summaryFragment_to_endFragment)
         }
     }
 
