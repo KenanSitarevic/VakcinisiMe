@@ -15,17 +15,14 @@ class VaccineFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentVaccineBinding>(layoutInflater, R.layout.fragment_vaccine, container, false)
-        return binding.root
-    }
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
 
-
-
-        view.findViewById<Button>(R.id.buttonNext).setOnClickListener {
+        binding.buttonNext.setOnClickListener {
             findNavController().navigate(R.id.action_vaccineFragment_to_summaryFragment)
         }
+
+        return binding.root
     }
+
 
 
 }

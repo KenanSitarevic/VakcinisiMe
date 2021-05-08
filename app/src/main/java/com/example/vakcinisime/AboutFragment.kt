@@ -8,13 +8,14 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
+import com.example.vakcinisime.databinding.FragmentAboutBinding
 import com.example.vakcinisime.databinding.FragmentStartBinding
 
 
 class AboutFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        val binding = DataBindingUtil.inflate<FragmentStartBinding>(layoutInflater, R.layout.fragment_about, container, false)
+        val binding = DataBindingUtil.inflate<FragmentAboutBinding>(layoutInflater, R.layout.fragment_about, container, false)
         return binding.root
     }
 

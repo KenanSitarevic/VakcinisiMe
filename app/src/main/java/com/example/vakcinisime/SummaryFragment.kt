@@ -15,6 +15,11 @@ class SummaryFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentSummaryBinding>(layoutInflater, R.layout.fragment_summary, container, false)
+
+        binding.buttonNext.setOnClickListener {
+            findNavController().navigate(R.id.action_summaryFragment_to_endFragment)
+        }
+
         return binding.root
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -22,9 +27,7 @@ class SummaryFragment : Fragment() {
 
 
 
-        view.findViewById<Button>(R.id.buttonNext).setOnClickListener {
-            findNavController().navigate(R.id.action_summaryFragment_to_endFragment)
-        }
+
     }
 
 

@@ -15,15 +15,13 @@ class InfoFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentInfoBinding>(layoutInflater, R.layout.fragment_info, container, false)
-        return binding.root
-    }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        view.findViewById<Button>(R.id.buttonNext2).setOnClickListener {
+        binding.buttonNext2.setOnClickListener {
             findNavController().navigate(R.id.action_infoFragment_to_impedimentsFragment)
         }
 
+        return binding.root
     }
+
+
 }
