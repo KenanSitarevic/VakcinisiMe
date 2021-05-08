@@ -33,3 +33,15 @@ Uvezani svi kotlin fajlovi (nek nam to bude izraz za one EndFragment, MainActivi
 U navigation-u odradjene sve primarne akcije prelaska sa fragmenta na fragment. 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TO DO:
+Barem jedan constraint layout
+Barem jedan fragment sa različitim horizontalnim i vertikalnim layout-om
+Prevod barem dva fragmenta na engleski jezik
+
+View and data binding ?
+Prosljeđivanje podataka putem Safe Args plug-ina
+Bočni meni
+Share button kojim se može poslati predefinisana poruka
+Timer sa lifecycle observerom
+Spašavanje podataka kako bi se sačuvali prilikom zatvaranja aplikacije od samog Android OS-a
